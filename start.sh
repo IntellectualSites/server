@@ -3,7 +3,7 @@ EULA='true'
 ONLINE='true'
 HOST='0.0.0.0'
 PORT='25565'
-NAME='Spigot'
+NAME='Paper'
 
 # Download a url to a file
 # $1 url
