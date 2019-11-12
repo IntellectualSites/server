@@ -1,0 +1,1 @@
+https://papermc.io/ci/job/Paper/lastSuccessfulBuild/artifact/paperclip.jar
