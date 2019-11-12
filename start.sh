@@ -1,4 +1,9 @@
 #!/bin/sh
+EULA='true'
+ONLINE='true'
+HOST='0.0.0.0'
+PORT='25565'
+NAME='Spigot'
 
 # Download a url to a file
 # $1 url
@@ -64,4 +69,4 @@ plugin "https://ci.athion.net/view/Everything/job/FastAsyncWorldEdit-pipeline/la
 plugin "https://ci.athion.net/view/Everything/job/FastAsyncVoxelSniper-flattening/lastSuccessfulBuild/artifact/build/libs/" "FastAsyncVoxelSniper" "FastAsyncVoxelSniper"
 
 # Run the server
-java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar paper.jar
+java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar -Dcom.mojang.eula.agree="$EULA" paper.jar --online-mode $ONLINE --host $HOST --port $PORT
