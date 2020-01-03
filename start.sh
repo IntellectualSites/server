@@ -65,7 +65,7 @@ download "$server_url" "$server_jar"
 plugin "https://ci.athion.net/job/PlotSquared-Releases/lastSuccessfulBuild/artifact/target/" "PlotSquared-Bukkit" "PlotSquared"
 
 # FAWE
-plugin "https://ci.athion.net/view/Everything/job/FastAsyncWorldEdit-pipeline/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/" "FastAsyncWorldEdit" "FastAsyncWorldEdit"
+plugin "https://ci.athion.net/view/Everything/job/FastAsyncWorldEdit-1.15/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/" "FastAsyncWorldEdit" "FastAsyncWorldEdit"
 plugin "https://ci.athion.net/view/Everything/job/FastAsyncVoxelSniper-flattening/lastSuccessfulBuild/artifact/build/libs/" "FastAsyncVoxelSniper" "FastAsyncVoxelSniper"
 
 # Run the server
